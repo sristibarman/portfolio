@@ -1,0 +1,129 @@
+/* @import "~@fortawesome/fontawesome-free/css/all.css"; */
+
+#projectSection {
+  overflow: hidden;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.firstProject,
+.secondProject {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.one {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(62, 64, 64);
+  border-radius: 5px;
+}
+
+.imgProject {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.imgProject:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.projectText {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+  padding: 0.5rem 1rem;
+  /* margin-bottom: 1rem; */
+}
+.spanText{
+  padding-bottom: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.one {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.one:hover .overlay {
+  display: flex;
+}
+
+.overlay i {
+  color: white;
+  font-size: 2rem;
+}
+
+
+@media screen and (max-width: 414px) {
+  
+  #projectSection {
+    padding: 1rem;
+  }
+  
+  .firstProject,
+  .secondProject {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .one {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .projectText {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  /* iPhone 12 Pro Max and similar */
+  #projectSection {
+    padding: 1rem;
+  }
+  
+  .firstProject,
+  .secondProject {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .one {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .projectText {
+    font-size: 18px;
+  }
+}

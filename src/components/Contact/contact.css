@@ -1,0 +1,86 @@
+
+.contactSec{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    text-align: center;
+    padding: 0.8rem;
+}
+
+#contact h1{
+    padding-bottom: 1rem;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.contactMeSec{
+    font-size: 12px;
+    padding: bottom 0.2rem ;
+    padding-top: 1rem;
+    max-width: 50rem;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 90vw;
+    max-width: 40rem; /* Adjust maximum width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 1rem; /* Add padding for better spacing */
+}
+
+
+.name , .email, .message, .phoneNo{
+    margin: 0.6rem;
+    padding: 0.2rem;
+    border: 1px solid rgb(178, 175, 175);
+    border-radius: 2.5px;
+    border-style: none;
+    box-shadow: 0.5px 0.5px 0.4px 0.4px rgb(139, 146, 148);
+    color: white;
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    background-color: rgb(49, 48, 48);
+    font-family: 'Poppins';
+
+}
+
+.subButton {
+    background: white;
+    border: none;
+    padding: 0.5rem 2rem; 
+    border-radius: 0.6rem;
+    margin: 2rem auto; 
+    display: block; 
+    cursor: pointer;
+}
+
+.subButton:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.links img{
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+    object-fit: cover;
+    
+}

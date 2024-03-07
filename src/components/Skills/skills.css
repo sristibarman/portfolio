@@ -1,0 +1,132 @@
+#aboutSec {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem 8rem;
+}
+.mainHeading {
+  font-size: 40px;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: yellow;
+  letter-spacing: 1px;
+}
+.titleHeading {
+  font-size: 40px;
+  font-family: "Poppins";
+  font-weight: 500;
+
+  letter-spacing: 1px;
+}
+
+.aboutPara {
+  font-size: 15px;
+  padding: bottom 0.2rem;
+  padding-top: 1rem;
+  max-width: 50rem;
+  text-align: center;
+}
+.img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.skillBars {
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+.firstSkill,
+.secondSkill,
+.thirdSkill {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(58, 54, 54);
+}
+
+.aboutText p {
+  font-size: 12px;
+  font-weight: 200;
+  font-family: "Poppins";
+  text-align: justify;
+}
+
+.aboutText h2 {
+  text-align: left;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+
+@media screen and (max-width: 768px) {
+  .mainHeading {
+    font-size: 2rem;
+  }
+
+  .titleHeading {
+    font-size: 2rem;
+  }
+
+  .aboutPara {
+    font-size: 0.9rem;
+  }
+
+  .img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+  }
+
+  .firstSkill,
+  .secondSkill,
+  .thirdSkill {
+    padding: 0.5rem;
+  }
+
+  .aboutText h2 {
+    font-size: 1.2rem;
+  }
+
+  
+}
+
+@media screen and (min-width: 375px) and (max-width: 390px) {
+  .mainHeading {
+    font-size: 2.2rem;
+  }
+
+  .titleHeading {
+    font-size: 2.2rem;
+  }
+
+  .aboutPara {
+    font-size: 0.9rem;
+  }
+
+  .img {
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+  }
+
+  .firstSkill,
+  .secondSkill,
+  .thirdSkill {
+    padding: 0.5rem;
+  }
+
+  .aboutText h2 {
+    font-size: 1.3rem;
+  }
+}
+
