@@ -13,6 +13,7 @@
 #contact{
     text-align: center;
     padding: 0.8rem;
+    margin-top: 3rem;
 }
 
 #contact h1{
@@ -23,7 +24,7 @@
 }
 
 .contactMeSec{
-    font-size: 12px;
+    font-size: 15px;
     padding: bottom 0.2rem ;
     padding-top: 1rem;
     max-width: 50rem;
@@ -83,4 +84,15 @@
     margin: 0 0.5rem;
     object-fit: cover;
     
+}
+
+@media screen and (max-width:415px){
+    .links img{
+        width: 35px;
+        height: 35px;
+
+    }
+    #contact h1{
+        font-size: 38px;
+    }
 }

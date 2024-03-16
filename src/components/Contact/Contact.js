@@ -1,7 +1,7 @@
 import React ,{useRef} from "react";
 import "./contact.css";
 import fb from '../../assets/facebook.png'
-import email from '../../assets/email.png'
+import insta from '../../assets/instagram.png'
 import linkedIn from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
 import emailjs from '@emailjs/browser';
@@ -47,7 +47,7 @@ function Contact() {
           <a href="https://github.com/sristibarman?tab=repositories">
           <img src={github} alt="github" className="links"></img>
           </a>  
-          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"><img src={email} alt="insta" className="links"></img>
+          <a href="https://www.instagram.com/"><img src={insta} alt="insta" className="links"></img>
           </a>
             <a href=""><img src={fb} alt="fb" className="links"></img></a>
             

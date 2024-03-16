@@ -1,4 +1,4 @@
-/* @import "~@fortawesome/fontawesome-free/css/all.css"; */
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
 #projectSection {
   overflow: hidden;
@@ -20,17 +20,21 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 2rem;
-  margin: 2rem;
+  /* margin-bottom: 1.8rem; */
+}
+.secondProject{
+  margin-bottom: 2rem;
 }
 
-.one {
+.one , .two , .three, .four {
   width: 300px;
   height: 300px;
   background-color: rgb(62, 64, 64);
   border-radius: 5px;
+  margin-top: 2rem;
 }
 
-.imgProject {
+.imgProjectOne,.imgProjectTwo,.imgProjectThree, .imgProjectFour {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -39,10 +43,12 @@
   cursor: pointer;
 }
 
-.imgProject:hover {
+/* .imgProject:hover {
   background-color: aqua;
   cursor: pointer;
-}
+} */
+
+
 
 .projectText {
   width: 100%;
@@ -59,7 +65,7 @@
   margin-bottom: 2rem;
 }
 
-.one {
+.one ,.two, .three , .four{
   position: relative;
 }
 
@@ -78,6 +84,18 @@
 .one:hover .overlay {
   display: flex;
 }
+.two:hover .overlay {
+  display: flex;
+}
+
+.three:hover .overlay {
+  display: flex;
+}
+
+.four:hover .overlay {
+  display: flex;
+}
+
 
 .overlay i {
   color: white;
@@ -85,7 +103,7 @@
 }
 
 
-@media screen and (max-width: 414px) {
+/* @media screen and (max-width: 414px) {
   
   #projectSection {
     padding: 1rem;
@@ -97,17 +115,21 @@
     align-items: center;
   }
   
-  .one {
-    width: 100%;
-    margin: 1rem 0;
+  
+  .one ,.two,.three,.four {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 3rem 0;
+    
   }
   
   .projectText {
-    font-size: 16px;
+    font-size: 19px;
   }
-}
-@media screen and (min-width: 415px) and (max-width: 768px) {
-  /* iPhone 12 Pro Max and similar */
+} */
+@media screen and (max-width: 415px) and (max-width: 896px) {
+  
   #projectSection {
     padding: 1rem;
   }
@@ -118,12 +140,21 @@
     align-items: center;
   }
   
-  .one {
+  /* .one ,.two,.three,.four {
     width: 100%;
-    margin: 1rem 0;
+    margin: 2.8rem 0;
+    
+  } */
+  .one ,.two,.three,.four {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 3rem 0;
+    
   }
   
   .projectText {
-    font-size: 18px;
+    font-size: 24px;
   }
+  
 }
